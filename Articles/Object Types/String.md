@@ -131,6 +131,14 @@ SyntaxError: invalid syntax
 >>> word[-1]
 'n'
 ```
++ Look the explanation from [Python.org](https://docs.python.org/3/tutorial/introduction.html#strings):
+```
+ +---+---+---+---+---+---+
+ | P | y | t | h | o | n |
+ +---+---+---+---+---+---+
+ 0   1   2   3   4   5   6
+-6  -5  -4  -3  -2  -1
+```
 [Return](../Object%20Types.md#--strings)
 
 ---
