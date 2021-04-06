@@ -1,6 +1,8 @@
 # Numbers
 
 ## Float
+
+---
 ### Float equals
 + The quation 3.5 + 2.0 isn't equal to 3.5.
 + Float operations aren't exact. This happens because the float isn't a decimal fration, but a binarie fration.
@@ -19,7 +21,10 @@ True
 ```
 [Return](../Object%20Types.md#numbers)
 
+---
+
 ## Integer
+---
 ### How many digits have a number?
 + For this, use: 
 ```py
@@ -29,3 +34,5 @@ True
 
 
 [Return](../Object%20Types.md#numbers)
+
+---
