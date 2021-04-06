@@ -7,7 +7,7 @@ String are immutables, and you can't change it.
 
 Look:
 ```py
->>> w = "word
+>>> w = "word"
 >>> w[0] = 'l'
 ...error text omitted...
 TypeError: 'str' object does not support item assignment
