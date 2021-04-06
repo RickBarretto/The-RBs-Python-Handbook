@@ -109,7 +109,33 @@ SyntaxError: invalid syntax
 
 ### Selecting characteres by index
 
++ You can choose letters according to your index
++ The `[arg:arg]` after the variable do the choose
++ `[i]` select the letter on the address;
++ `[:i]` select all before the index `i`, that is, before the `i+1` letter.
++ `[i:]` select all from the index `i`, thst is, from the `i+1` letter.
++ `[i:n]` select all from `i` index that is before `n` index.
++ `[-i]` select the number by a inverse index. `i = -1` is the same as the last letter.
+```py
+>>> word = "Python"
+>>> word[:2]
+'Py'
+>>> word[2:]
+'thon'
+>>> word[0]
+'P'
+>>> word[0:2]
+'Py'
+>>> word[2:5] 
+'tho'
+>>> word[-1]
+'n'
+```
+[Return](../Object%20Types.md#--strings)
+
+---
 ## Path
+---
 ### Working with directories path
 + To determine a path, use the `r` before the path string. It'll avoid to have error with special commands, like `\n` or `\t`.
 ```py
