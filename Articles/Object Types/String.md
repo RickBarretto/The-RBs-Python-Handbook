@@ -26,7 +26,7 @@ or:
 >>> w = "word"
 >>> w = w.replace("w", "l")
 ```
-[Return](../Object%20Types.md#strings)
+[Return](../Object%20Types.md#--strings)
 
 ---
 
@@ -52,7 +52,7 @@ To get around this problem, use a `\` before the quote to say that the `"` is in
 >>> print("\"Hello, world\" - C")
 "Hello, world" - C
 ``` 
-[Return](../Object%20Types.md#strings)
+[Return](../Object%20Types.md#--strings)
 
 ---
 
@@ -82,7 +82,7 @@ def function():
 
 <img src="../Assets/triplequotes_to_explain_function.png" alt="Triple quotes can be used explain a function" width="400px">
 
-[Return](../Object%20Types.md#strings)
+[Return](../Object%20Types.md#--strings)
 
 ---
 
@@ -103,7 +103,7 @@ SyntaxError: invalid syntax
 >>> prefix + 'thon'
 'Python'
 ```
-[Return](../Object%20Types.md#strings)
+[Return](../Object%20Types.md#--strings)
 
 ---
 
@@ -119,7 +119,7 @@ C:\Users
 >>> print(r'C:\Users\nicholas')
 C:\Users\nicholas
 ```
-[Return](../Object%20Types.md#strings)
+[Return](../Object%20Types.md#--strings)
 
 ---
 

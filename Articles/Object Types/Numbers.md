@@ -19,7 +19,7 @@ False
 >>> math.fsum([0.1] * 10) == 1.0
 True
 ```
-[Return](../Object%20Types.md#numbers)
+[Return](../Object%20Types.md#--numbers)
 
 ---
 
@@ -33,6 +33,6 @@ True
 > **Explanation:** we turn the number in a string, and we use the len( ) method to calculate the range.
 
 
-[Return](../Object%20Types.md#numbers)
+[Return](../Object%20Types.md#--numbers)
 
 ---
