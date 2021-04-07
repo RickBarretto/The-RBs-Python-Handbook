@@ -1,7 +1,41 @@
 # Numbers
 
-## Float
+## Operations
+---
+### Math Operations
++ Sum: `x + y`
++ Difference: `x - y`
++ Product: `x * y`
++ Quotient: `x / y`
++ Floored Quotient: `x // y`
++ Remainder: `x % y`
++ Invert Signal: `-x`
++ Power: `x ** y`
 
+[Return](../Object%20Types.md#--numbers)
+
+---
+### Methods
++ Absolute value (always positive): `abs(x)`
++ Complex number: `complex(re, im)`
+  + Example: `complex('1 + 2j') `
++ Conjugate of a complex number: `num.conjugate()`
++ Floored Quotient and Remainder: `divmod(x, y)`
+  + Returns: `(x // y, x % y)`
++ Power: `pow(x, y)`
+  + The same as `(x ** y)`
+
+[Return](../Object%20Types.md#--numbers)
+
+---
+### Convert
++ Convert to integer: `int(x)`
++ Convert to float point: `float(x)`
+
+[Return](../Object%20Types.md#--numbers)
+
+---
+## Float
 ---
 ### Float equals
 + The quation 3.5 + 2.0 isn't equal to 3.5.
