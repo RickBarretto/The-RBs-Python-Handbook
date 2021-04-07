@@ -1,5 +1,80 @@
 # String
 
+## Methods:
+
+### Case
++ **Capitalize Case:** Capitalize the first character. `str.capitalize()`
++ **Casefold Case:** Return a casefold of the string. `str.casefold()`
++ **Lower Case:** Return a lower case of the string. `str.lower()`
++ **Title Case:** Capitalize all words's first character. `str.title()`
++ **Swap Case:** Invert the Case. `str.swapcase()`
++ **Upper Case:** Capitalize all chars. `str.upper()`
+### Spacing
++ **Center:** Center a string, adding chars or white spaces. `center(width, [fillchar])`
++ **Determine tab size:** `str.expandtabs(tabsize=<int>)`
++ **Justify Left & Right:** `str.ljust(width, fillchar)`, `str.rjust(width, fillchar)`
+
+### Validador
++ **Couting ocurrences:** `str.cout(sub, start, end)`
+  + Returns a `int`.
++ **Suffix validador:** `str.endswith(suffix, start, end)`
+  + Returns `bool`
++ **Finding an ocurrence:** `str**.find(sub, start, end)`
+  + Returns a `bool`
+  + `str.rfind()` gives the highest index.
+  + [See Index - Returns a int](#validador)
++ **Finding an ocurrence index:** `str.index(sub, start, end)`
+  + Returns a `int`
+  + [See Find - Returns a bool](#validador)
++ **Is anything methods:** Always returns a `bool`
+  + `str.isalnum()`: returns True to a alphanumeric.
+  + `str.isalpha()`: returns True to a alphabetic.
+  + `str.isdecimal()`: returns True to a decimal.
+  + `str.isdigit()`: returns True to a digit.
+  + `str.isnumeric()`: returns True to a number.
+  + `str.isascii()`: returns True to a ASCII string.
+  + `str.islower()`: returns True if the string have all chars lowed.
+  + `str.isspace()`: returns True if have only white spaces.
+  + `str.istitle()`: returns True to a TitleCase.
+  + `str.isupper()`: returns True if the string have all chars upped.
++ + **Prefix validador:** `str.startswith(prefix, start, end)`
+  + Returns `bool`
+
+
+
+### Removing
++ **Strip Left & Right:** `str.lstrip([chars])`, `str.rstrip([chars])`
++ **Remove Prefix & Suffix:** `str.removeprefix(prefix, /)`, `str.removesuffix(suffix, /)`
++ **Replace:** `str.replace(old, new[, count])`
++ 
+
+
+### Spliting
++ **Concatenating string:** `str.join(iterable)`.
+  + The string will be a separator of the list in `join()`
+  + ```py
+    >>> test = {'2', '1', '3'}
+    >>> s = ', '
+    >>> print(s.join(test))
+    >>> 2, 3, 1
+
+    >>> test = {'Python', 'Java', 'Ruby'}
+    >>> s = '->->'
+    >>> print(s.join(test))
+    >>> Python->->Ruby->->Java
+    ```
++ **Split:** splits a string, based in sep occurrence `str.split(sep=string, maxsplit=-1)`
++ **Split Lines:** `str.splitlines()` the same as `str.split("\n")`
+
+### Special
++ **Encode:** `str.encode(encoding="", errors="")`
+  + Defaut encode = "uft-8"
+  + errors can be: `ignore`, `strict`, `xmlcharrefreplace`, `backslashreplace`
++ **Inserting a string into another** `str.format(*args, **kwargs)`
+  + [See More]()
+
+[Read complete](https://docs.python.org/3/library/stdtypes.html#string-methods)
+
 ## String
 ---
 ### Immutability Principle
@@ -20,6 +95,12 @@ But, you can do:
 ```
 
 It'll catch the "ord" and add the "l" in the start.
+
+or:
+```py
+>>> w = "word"
+>>> w = w.removeprefix("w")
+```
 
 or:
 ```py
@@ -156,4 +237,7 @@ C:\Users\nicholas
 [Return](../Object%20Types.md#--strings)
 
 ---
+
+## Read More
+[Printf]()
 

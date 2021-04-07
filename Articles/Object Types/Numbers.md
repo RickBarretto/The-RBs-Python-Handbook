@@ -70,3 +70,7 @@ True
 [Return](../Object%20Types.md#--numbers)
 
 ---
+
+## See More:
+
+[Math function]()
