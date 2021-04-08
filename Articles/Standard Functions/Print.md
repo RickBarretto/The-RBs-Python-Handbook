@@ -34,11 +34,11 @@ print(A, B, file=_file)
 ```py
 >>> string = 'A'
 >>> string
->>> 'A'
+'A'
 
 >>> integer = 10
 >>> integer
->>> 10
+10
 ```
 
 ## Using Sys
@@ -67,11 +67,12 @@ print(x, y, file=_file)
 
 + CSV Trick:
 ```py
-name, year, at = "Rick", 18, "@Github"
-print(name, year, at, sep=";", end="\n", file=open("file.csv", "a"))
-### >> It'll print: "Rick;18;@Github\n" on csv
-## Reading:
-print(open("file_example.txt").read())
+>>> name, year, at = "Rick", 18, "@Github"
+>>> print(name, year, at, sep=";", end="\n", file=open("file.csv", "a"))
+>>> ### >> It'll print: "Rick;18;@Github\n" on csv
+>>> ## Reading:
+>>> print(open("file_example.txt").read())
+Rick;18;@Github
 ```
 
 + Mixing:

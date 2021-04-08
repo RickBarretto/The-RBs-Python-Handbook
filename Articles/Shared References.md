@@ -7,10 +7,10 @@ When no reference is made to First object, but to equal list, the Second object 
 >>> ListB = ['a', 'b', 'c']
 
 >>> ListA == ListB
->>> True
+True
 
 >>> ListA is ListB
->>> False
+False
 ```
 
 ## Same Objects
@@ -20,8 +20,8 @@ Already, when reference is made to First Object, the Second will be the same obj
 >>> ListB = ListA
 
 >>> ListA == ListB
->>> True
+True
 
 >>> ListA is ListB
->>> True
+True
 ```

@@ -5,9 +5,9 @@
 >>> a, *b = "a", "b", "c"
 
 >>> print(a)
->>> 'a'
+'a'
 >>> print(b)
->>> ['b', 'c']
+['b', 'c']
 ```
 
 ## Running expressions
